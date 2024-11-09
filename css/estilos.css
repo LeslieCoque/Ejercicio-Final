@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: manjari, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.contenedor{
+    width: 1200px;
+    background-color: #7868E6;
+    margin-right: auto;
+    margin-left: auto;
+}
+/*comienza header*/
+header{
+    background-color: #B8B5FF;
+    border-radius: 0 0 25px 25px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+}
+
+.menu{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.bmenu{
+    padding-right: 35px;
+}
+a{
+    color: #FFFFFF;
+    font-family: Mankari, sans-serif;
+}
+a:hover{
+    opacity: 75%;
+    transition: 0.4s;
+}
+.isotipo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 25px;
+}
+h1{
+   text-align: center;
+   font-size: 40px;
+   font-family: montserrat, sans-serif;
+   color: #FFFFFF;
+   margin-bottom: 3px;
+}
+h3{
+    text-align: center;
+    font-size: 23px;
+    color: #B8B5FF;
+}
+/*comienza main*/
+h2{
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+    color: #15F5BA;
+    margin-top: 125px;
+    margin-left: 195px;
+    margin-bottom: 5px;
+}
+p{
+    margin-left: 195px;
+    margin-bottom: 25px;
+    color: #FFFFFF;
+}
+.galeria{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img.imagen{
+    margin: -3px;
+}
+video.imagen{
+    margin: -4px;
+}
+img.render01{
+    width: 850px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+}
+a.volver{
+    display: block;
+    color: #15F5BA;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 36px;
+}
+
+/*sobre mí*/
+
+article.sobre{
+    width: 900px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.mifoto{
+    margin-top: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+h2.sobre{
+    font-size: 55px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    
+}
+
+p.acerca{
+    color: #FFFFFF;
+    font-size: 23px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 25px;
+    border-bottom: 3px solid; 
+
+}
+/*botones redes*/
+
+div.redes{
+    width: 60px;
+    height: 250px;
+    background-color: #B8B5FF;
+    position: fixed;
+    top: 255px;
+    left: 292px;
+    border-radius: 13px;
+}
+li{
+    list-style: none;
+    text-align: center;
+    padding: 9px;
+}
+.derechos{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    color: #7868E6;
+    margin-top: 125px;
+}
+footer{
+    background-color: #15F5BA;
+}
